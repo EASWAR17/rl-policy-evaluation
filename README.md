@@ -34,15 +34,17 @@ For example, if the agent is in state S and takes the "R" action, then there is 
 - The agent receives a reward of 0 for all other states.
 
 ### Graphical Representation
-![](1.png)
+![1](https://github.com/EASWAR17/rl-policy-evaluation/assets/94154683/35511da2-1c1b-41f3-8978-2e5eff6d19a8)
+
 
 ## POLICY EVALUATION FUNCTION
-![](2.PNG)
+![2](https://github.com/EASWAR17/rl-policy-evaluation/assets/94154683/fa7ed9c9-b2e5-4c28-b0b3-003f64102fbd)
+
 
 ## PROGRAM
 ```py
-#program developed by : Kaushika A
-#register no: 212221230048
+#program developed by : Easwar J
+#register no: 212221230024
 ```
 
 ### predefined environment and functions:
@@ -140,7 +142,7 @@ print_policy(pi_1, P, action_symbols=('<', '>'), n_cols=7)
 
 # Second Policy
 pi_2 = lambda s: {
-    0:RIGHT, 1:RIGHT, 2:LEFT, 3:RIGHT, 4:LEFT, 5:RIGHT, 6:RIGHT
+    0:LEFT, 1:LEFT, 2:RIGHT, 3:RIGHT, 4:LEFT, 5:LEFT, 6:RIGHT
 }[s]
 print_policy(pi_2, P, action_symbols=('<', '>'), n_cols=7)
 ```
@@ -170,26 +172,35 @@ else:
 ## <u> policy 1: </u>
 
 ### policy
-![](3.PNG)
+![image](https://github.com/EASWAR17/rl-policy-evaluation/assets/94154683/87d12a1f-b8fa-47ce-b626-078be00f8ed2)
+
 
 ### policy evaluation:
-![](7.PNG)
+![image](https://github.com/EASWAR17/rl-policy-evaluation/assets/94154683/7397c3ec-835b-48f7-b13f-2741730fdde9)
+
 
 ### state value function:
-![](5.PNG)
+![image](https://github.com/EASWAR17/rl-policy-evaluation/assets/94154683/18668d6b-2616-4aeb-8d59-b1e277c7bcb0)
+
 
 ## <u> policy 2: </u>
 ### policy
-![](4.PNG)
+![image](https://github.com/EASWAR17/rl-policy-evaluation/assets/94154683/53e959ac-f59a-4288-995c-f3af54e7e688)
+
 
 ### policy evaluation:
-![](8.PNG)
+![image](https://github.com/EASWAR17/rl-policy-evaluation/assets/94154683/73e39f8d-881c-42ac-bf78-6311abe849b7)
+
 
 ### state value function:
-![](6.PNG)
+![image](https://github.com/EASWAR17/rl-policy-evaluation/assets/94154683/45facd8b-7e91-4eec-9943-5fd797285037)
+
 
 ## <u> policy comparison: </u> 
-![](9.PNG)
+![image](https://github.com/EASWAR17/rl-policy-evaluation/assets/94154683/3a07f8ac-3eb6-4870-885f-b01b192016fe)
+![image](https://github.com/EASWAR17/rl-policy-evaluation/assets/94154683/25681619-cc56-43da-b5f2-43608ed57abf)
+
+
 
 ## RESULT:
 Thus, a Python program is developed to evaluate the given policy.
